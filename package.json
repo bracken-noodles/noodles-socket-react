@@ -1,0 +1,16 @@
+{
+  "name": "@bracken/noodles-socket-react",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && mkdir lib && babel src -d lib"
+  },
+  "author": "Oboo Chin <oboochin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
+}
